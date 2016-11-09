@@ -29,8 +29,8 @@ public class TransformationOperation {
 		//groupByKey();
 		//reduceByKey();
 		//sortByKey();
-		//join();
-		cogroup();
+		join();
+		//cogroup();
 	}
 	
 	/**
@@ -234,6 +234,7 @@ public class TransformationOperation {
 		List<Tuple2<Integer, String>> studentList = Arrays.asList(
 				new Tuple2<Integer, String>(1, "leo"),
 				new Tuple2<Integer, String>(2, "jack"),
+				new Tuple2<Integer, String>(1, "luo"),
 				new Tuple2<Integer, String>(3, "tom"));
 		List<Tuple2<Integer, Integer>> scoreList = Arrays.asList(
 				new Tuple2<Integer, Integer>(1, 60),
